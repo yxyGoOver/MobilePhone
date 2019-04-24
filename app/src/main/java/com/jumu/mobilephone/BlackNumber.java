@@ -62,6 +62,7 @@ public class BlackNumber extends Activity {
       //   Toast.makeText(this, String.valueOf(mDao.getCount()), Toast.LENGTH_SHORT).show();
     }
 
+     //nininininiini
 
     private void initUI() {
         bt_add = findViewById(R.id.bt_add);
