@@ -50,7 +50,7 @@ public class BlackNumber extends Activity {
            }else {
                blackNumberAdapter.notifyDataSetChanged();
            }
-
+           Toast.makeText(BlackNumber.this, "++++++", Toast.LENGTH_SHORT).show();
        }
    };
     @Override
