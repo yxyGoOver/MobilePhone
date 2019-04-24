@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".HomeActivity">
+     <TextView
+         style="@style/TitleName"
+         android:text="功能列表"
+         />
+    <!-- <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="打,我而家就去打仗打,打 属于我自己嘅一场仗，假若现实世界根本就系一个战场，咁一切现象系唔系一堆残酷假象，假如现实叫我去打一场假仗，打住乜嘢旗号 打一场点样嘅仗，打得唔好 我嘅生命就此划上句号"
+         android:textColor="#000"
+         android:singleLine="true"
+         android:ellipsize="marquee"
+         android:focusable="true"
+         android:focusableInTouchMode="true"
+         android:marqueeRepeatLimit="marquee_forever"
+         android:padding="5dp"/>-->
+     <com.jumu.mobilephone.view.FocusTextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="打,我而家就去打仗打,打 属于我自己嘅一场仗，假若现实世界根本就系一个战场，咁一切现象系唔系一堆残酷假象，假如现实叫我去打一场假仗，打住乜嘢旗号 打一场点样嘅仗，打得唔好 我嘅生命就此划上句号"
+          android:textColor="#000"
+          android:singleLine="true"
+          android:ellipsize="marquee"
+          android:marqueeRepeatLimit="marquee_forever"
+          android:padding="5dp"
+     />
+    <GridView
+        android:id="@+id/gv_home"
+        android:verticalSpacing="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3"></GridView>
+</LinearLayout>
